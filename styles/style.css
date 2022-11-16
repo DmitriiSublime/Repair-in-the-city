@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&family=Yeseva+One&display=swap');
+
+/* font-family: 'Nunito Sans', sans-serif;
+font-family: 'Yeseva One', cursive; */
+
+
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 91px;    
+}
+
+.ninito-sans {
+    font-family: 'Nunito Sans';    
+}
+
+.header {
+    width: 100%;
+    height: 83px;
+    background-color: #131313;    
+}
+
+.header__wrapper {
+    display: flex;    
+}
+
+.header__block {
+    padding: 32px 93px;
+}
+
+.header__logo {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #E3B873;
+    text-decoration: none;
+}
+
+.header__nav {
+    display: flex;    
+    align-items: center;
+}
+
+.header__link {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    color: #FFFFFF;
+    text-decoration: none;   
+}
+
+.header__link:not(:last-child) {
+    margin-right: 47px; 
+}
+
+.header__contacts {
+    display: flex;
+    align-items: center;
+    }
+
+.header__number {
+    margin-left: 52px;
+    margin-right: 45px;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #E3B873;
+}
+
+.btn {
+    display: inline-flex;
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+    font-weight: 400;
+    background-color: #E3B873;
+    height: 37px;
+    min-width: 161px;    
+    align-items: center;
+    justify-content: center;
+    transition: backgroundcolor .3s ease;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;  
+}
+
+.btn:hover {
+    background-color: #a07022;
+}
+
+.header__link:hover {
+    color: #E3B873;    
+    transition: color .3s ease;
+}
+
+.header__link.active {
+    color: #E3B873;   
+}
