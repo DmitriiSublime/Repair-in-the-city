@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&family=Yeseva+One&display=swap');
 
-/* font-family: 'Nunito Sans', sans-serif;
-font-family: 'Yeseva One', cursive; */
 
 
 .container {
@@ -12,8 +10,14 @@ font-family: 'Yeseva One', cursive; */
 }
 
 .ninito-sans {
-    font-family: 'Nunito Sans';    
+    font-family: 'Nunito Sans', sans-serif;    
 }
+
+.yeseva-one {
+    font-family: 'Yeseva One', cursive;
+}
+
+/* HEADER START */
 
 .header {
     width: 100%;
@@ -26,7 +30,7 @@ font-family: 'Yeseva One', cursive; */
 }
 
 .header__block {
-    padding: 32px 93px;
+    padding: 32px 93px 32px 10px;
 }
 
 .header__logo {
@@ -61,7 +65,7 @@ font-family: 'Yeseva One', cursive; */
     }
 
 .header__number {
-    margin-left: 52px;
+    margin-left: 82px;
     margin-right: 45px;
     font-weight: 400;
     font-size: 11px;
@@ -77,6 +81,7 @@ font-family: 'Yeseva One', cursive; */
     font-size: 11px;
     line-height: 15px;
     font-weight: 400;
+    font-style: italic;
     background-color: #E3B873;
     height: 37px;
     min-width: 161px;    
@@ -85,7 +90,8 @@ font-family: 'Yeseva One', cursive; */
     transition: backgroundcolor .3s ease;
     cursor: pointer;
     text-decoration: none;
-    text-transform: uppercase;  
+    text-transform: uppercase;
+    border-radius: 2px; 
 }
 
 .btn:hover {
@@ -100,3 +106,88 @@ font-family: 'Yeseva One', cursive; */
 .header__link.active {
     color: #E3B873;   
 }
+
+/* HEADER END */
+
+
+/* INTRO START */
+.intro {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.intro::after {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2);
+    content: "";
+}
+
+.intro__content {
+    height: 707px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+
+.intro__title {    
+    padding-left: 60px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.intro__highlight {
+    color: #E3B873;
+}
+
+.intro__text {
+    padding-top: 20px;
+    padding-left: 60px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.intro__button {
+    display: inline-flex;
+    margin: 41px 10px 0 60px;
+    color: #fff;
+    font-style: italic;
+    font-size: 11px;
+    line-height: 15px;
+    font-weight: 400;
+    background-color: #E3B873;
+    height: 51px;
+    min-width: 207px;    
+    align-items: center;
+    justify-content: center;
+    transition: backgroundcolor .3s ease;
+    font-family: 'Nunito Sans', sans-serif;           
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 2px; 
+}
+
+.uncolored {
+    background-color: unset;
+    border: 1px solid #FFFFFF;
+    margin-left: 0;
+}
+
+.intro__button:hover {
+    background-color: #a07022;
+}
+
+
+/* INTRO END */
