@@ -240,12 +240,10 @@
 }
 
 
-
 .info__repair {
     display: grid;
     grid-template-rows: 140px 110px;
-    grid-template-columns: 180px 180px;
-    
+    grid-template-columns: 180px 180px;    
 }
 
 .info__title {
@@ -295,23 +293,65 @@
 }
 
 .info__item {
+    padding: 56px 0 257px 0;   
     display: flex;   
-    justify-content: center;
-    padding-top: 42px;
+    justify-content: center;    
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /* INFO END */
 
 
 
+
+/* CLIENTS START */
+
+.clients__working {    
+    padding-left: 160px;
+    margin-top: -230px;      
+}
+
+.clients__arrow {    
+    padding-left: 400px;    
+    margin-top: -360px;    
+}
+
+.clients__line {
+    padding-top: 220px;
+    display: flex;
+    justify-content: center;    
+}
+
+.clients__description {
+    padding-top: 34px;
+    display: flex;
+    justify-content: center;    
+}
+
+.clients__text {    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 37px;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #363636;
+}
+
+.clients__group {
+    padding-top: 93px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.clients__label {
+    display: block;
+    width:30%;
+}
+
+
+
+/* border-bottom: 1px #E3B873 solid; */
+
+
+/* CLIENTS END */
