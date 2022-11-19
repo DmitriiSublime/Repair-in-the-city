@@ -188,6 +188,130 @@
 .intro__button:hover {
     background-color: #a07022;
 }
-
-
 /* INTRO END */
+
+
+
+
+/* INFO START */
+.info {
+    background-color: #131313;
+}
+
+.info__content {
+    margin-left: 60px;
+}
+
+.info__wrapper {
+    display: flex;
+    justify-content: flex-end;
+    padding: 100px 40px 50px 0;
+}
+
+.info__link {
+    padding-bottom: 7px;
+    font-family: 'Yeseva One', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.info__link:not(:last-child) {
+    margin-right: 60px;
+}
+
+.info__link.active {
+    border-bottom: 1px #E3B873 solid;
+    color: #E3B873;
+}
+
+.info__link:hover {
+    border-bottom: 1px #E3B873 solid;
+    color: #E3B873;    
+    transition: color .3s ease;
+}
+
+.info__decoration {
+    float: right;
+}
+
+
+
+.info__repair {
+    display: grid;
+    grid-template-rows: 140px 110px;
+    grid-template-columns: 180px 180px;
+    
+}
+
+.info__title {
+    padding: 0 0 34px 0;
+    font-family: 'Yeseva One', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    color: #E3B873;
+    text-transform: uppercase;
+}
+
+.info__row {
+    padding-bottom: 48px;
+    font-size: 14px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;    
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.info__repair-position {    
+    padding-right: 50px;
+    width: 100px;
+}
+
+.info__description { 
+    font-size: 18px;   
+    font-style: normal;
+    font-weight: 400;    
+    line-height: 25px;
+    font-family: 'Yeseva One', cursive;;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.info__text { 
+    font-size: 13px;   
+    font-style: normal;
+    font-weight: 400;    
+    line-height: 21px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #FFFFFF;
+}
+
+.info__item {
+    display: flex;   
+    justify-content: center;
+    padding-top: 42px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* INFO END */
+
+
+
