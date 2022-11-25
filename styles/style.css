@@ -711,11 +711,7 @@
 .people__information {
     margin-top: 30px;
     display: grid;
-    grid-template-columns: auto auto auto;
-    /* background-color: #2196F3;
-    padding: 10px;
-    margin-bottom: 100px;
-    border: 1px solid red; */
+    grid-template-columns: auto auto auto;    
 }
 
 .people__wrapper {   
@@ -763,20 +759,19 @@
     margin-left: -15px;
 }
 
-
-
 /* PEOPLE END */
 
 /* QUESTIONS START */
 .questions {
     /* background-size: cover; */
-    position: relative;            
+    position: relative;
+    z-index: 2;              
 }
-
 
 .questions__content {    
     display: flex;
-    justify-content: center;    
+    justify-content: center;
+     
 }
 
 .questions__wrapper {
@@ -855,7 +850,6 @@
 }
 
 
-
 /* QUESTIONS END */
 
 
@@ -866,7 +860,7 @@
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: -1;
+    /* z-index: -1; */
 }
 
 .map__text {
@@ -884,10 +878,19 @@
 .map__link {
     margin-top: 26px;
     display: flex;
-    justify-content: center;    
+    justify-content: center;
+    z-index: 4;   
 }
 
 .map__mail {
     margin-right: 15px;
 }
+
+.map__location {
+    padding-top: 43px;
+    padding-bottom: 65px;
+    display: flex;
+    justify-content: center;
+}
+
 /* MAP END */
