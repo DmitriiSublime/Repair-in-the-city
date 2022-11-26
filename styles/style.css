@@ -6,10 +6,10 @@
     margin: 0 auto;
     max-width: 1440px;
     width: 100%;
-    padding: 0 91px;    
+    padding: 0 50px 0 80px;    
 }
 
-.ninito-sans {
+.nunito-sans {
     font-family: 'Nunito Sans', sans-serif;    
 }
 
@@ -26,11 +26,11 @@
 }
 
 .header__wrapper {
-    display: flex;    
+    display: flex;       
 }
 
 .header__block {
-    padding: 32px 93px 32px 10px;
+    padding: 33px 130px 35px 13px;
 }
 
 .header__logo {
@@ -56,17 +56,19 @@
 }
 
 .header__link:not(:last-child) {
-    margin-right: 47px; 
+    margin-right: 52px; 
 }
 
 .header__contacts {
+    /* padding-left: 40px; */
     display: flex;
     align-items: center;
-    }
+    
+}
 
 .header__number {
-    margin-left: 82px;
-    margin-right: 45px;
+    margin-left: 100px;
+    margin-right: 66px;
     font-weight: 400;
     font-size: 11px;
     line-height: 15px;
@@ -82,6 +84,7 @@
     line-height: 15px;
     font-weight: 400;
     font-style: italic;
+    font-family: 'Nunito Sans', sans-serif;
     background-color: #E3B873;
     height: 37px;
     min-width: 161px;    
@@ -107,11 +110,13 @@
     color: #E3B873;   
 }
 
+
 /* HEADER END */
 
 
 /* INTRO START */
 .intro {
+    height: 720px;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -135,9 +140,9 @@
     z-index: 2;
 }
 
-
-.intro__title {    
-    padding-left: 60px;
+.intro__title {  
+    padding-bottom: 11px;      
+    padding-left: 63px;
     font-weight: 400;
     font-size: 40px;
     line-height: 53px;
@@ -150,33 +155,20 @@
 }
 
 .intro__text {
-    padding-top: 20px;
+    padding-top: 6px;
     padding-left: 60px;
+    letter-spacing: 1.2px;
     font-weight: 400;
     font-size: 22px;
     line-height: 36px;
     color: #FFFFFF;
 }
 
-.intro__button {
-    display: inline-flex;
-    margin: 41px 10px 0 60px;
-    color: #fff;
-    font-style: italic;
-    font-size: 11px;
-    line-height: 15px;
-    font-weight: 400;    
+.intro__button {    
+    margin: 27px 11px 0 59px;
+    color: #fff;        
     height: 51px;
-    min-width: 207px;    
-    align-items: center;
-    justify-content: center;
-    transition: backgroundcolor .3s ease;
-    background-color: #E3B873;
-    font-family: 'Nunito Sans', sans-serif;           
-    cursor: pointer;
-    text-decoration: none;
-    text-transform: uppercase;
-    border-radius: 2px; 
+    min-width: 213px;
 }
 
 .uncolored {
@@ -192,20 +184,19 @@
 
 
 
-
 /* INFO START */
 .info {
     background-color: #131313;
 }
 
 .info__content {
-    margin-left: 60px;
+    margin-left: 57px;
 }
 
 .info__wrapper {
     display: flex;
     justify-content: flex-end;
-    padding: 100px 40px 50px 0;
+    padding: 109px 120px 50px 0;
 }
 
 .info__link {
@@ -236,19 +227,18 @@
 }
 
 .info__decoration {
+    padding-right: 60px;
     float: right;
 }
 
-
 .info__repair {
     display: grid;
-    grid-template-rows: 140px 110px;
-    grid-template-columns: 180px 180px;    
+    grid-template-rows: 110px 138px;
+    grid-template-columns: 195px 180px;    
 }
 
 .info__title {
-    padding: 0 0 34px 0;
-    font-family: 'Yeseva One', cursive;
+    padding: 0 0 28px 0;      
     font-style: normal;
     font-weight: 400;
     font-size: 27px;
@@ -259,9 +249,9 @@
 }
 
 .info__row {
-    padding-bottom: 48px;
-    font-size: 14px;
-    font-family: 'Nunito Sans', sans-serif;
+    padding-bottom: 50px;
+    letter-spacing: 0.1px;
+    font-size: 14px;    
     font-style: normal;
     font-weight: 400;    
     line-height: 27px;
@@ -284,16 +274,17 @@
 }
 
 .info__text { 
+    padding-top: 7px;
+    letter-spacing: 0.8px;   
     font-size: 13px;   
     font-style: normal;
     font-weight: 400;    
     line-height: 21px;
-    font-family: 'Nunito Sans', sans-serif;
     color: #FFFFFF;
 }
 
 .info__item {
-    padding: 56px 0 257px 0;   
+    padding: 88px 55px 262px 0;   
     display: flex;   
     justify-content: center;    
 }
@@ -302,12 +293,13 @@
 
 
 
-
 /* CLIENTS START */
 
-.clients__working {    
-    padding-left: 160px;
-    margin-top: -230px;      
+.clients__working { 
+    margin-left: 195px;
+    margin-top: -255px;
+    width: 1080px;
+    height: 434px;        
 }
 
 .clients__arrow {    
@@ -333,7 +325,6 @@
     font-size: 18px;
     line-height: 37px;
     text-align: center;
-    font-family: 'Nunito Sans', sans-serif;
     color: #363636;
 }
 
@@ -379,6 +370,12 @@
     padding-top: 35px;
 }
 
+.submit {
+    font-style: normal;
+    font-size: 13px;
+    line-height: 27px;
+}
+
 .clients__tag {
     display: flex;
     justify-content: center;
@@ -388,16 +385,15 @@
     padding-right: 9px;
 }
 
-.clients__tag-desccription {
-    font-family: 'Nunito Sans', sans-serif;
+.clients__tag-desccription {    
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 163.68%;
     color: #181818;
 }
-
 /* CLIENTS END */
+
 
 /* TYPES START */
 .types__img {
@@ -616,7 +612,6 @@
 .forniture__wrapper {
     display: grid;
     grid-template-columns: auto auto auto;
-    /*  */
 }
 
 .forniture__title {
@@ -770,8 +765,7 @@
 
 .questions__content {    
     display: flex;
-    justify-content: center;
-     
+    justify-content: center;     
 }
 
 .questions__wrapper {
@@ -822,31 +816,13 @@
     display: flex;
     justify-content: center;
 }
-.questions__button-call {
-    display: inline-flex;
-    margin-top: 35px;
-    color: #fff;
-    font-style: italic;
-    font-size: 11px;
-    line-height: 15px;
+.questions__button-call {    
+    margin-top: 35px;    
+    font-size: 13px;
+    line-height: 27px;
     font-weight: 400;    
     height: 51px;
-    min-width: 207px;    
-    align-items: center;
-    justify-content: center;
-    transition: backgroundcolor .3s ease;
-    background-color: #E3B873;
-    font-family: 'Nunito Sans', sans-serif;           
-    cursor: pointer;
-    text-decoration: none;
-    text-transform: uppercase;
-    border-radius: 2px; 
-}
-
-.questions__button-call:hover {
-    border-bottom: 1px #E3B873 solid;
-    color: #E3B873;    
-    transition: color .3s ease;
+    min-width: 200px;     
 }
 
 
