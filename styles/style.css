@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&family=Yeseva+One&display=swap');
 
 
-
 .container {
     margin: 0 auto;
     max-width: 1440px;
@@ -109,8 +108,6 @@
 .header__link.active {
     color: #E3B873;   
 }
-
-
 /* HEADER END */
 
 
@@ -181,7 +178,6 @@
     background-color: #a07022;
 }
 /* INTRO END */
-
 
 
 /* INFO START */
@@ -288,13 +284,10 @@
     display: flex;   
     justify-content: center;    
 }
-
 /* INFO END */
 
 
-
 /* CLIENTS START */
-
 .clients__working { 
     margin-left: 195px;
     margin-top: -255px;
@@ -481,7 +474,6 @@
     color: #FFFFFF;
 }
 /* TYPES END */
-
 
 /* FEEDBACK START */
 .feedback__container {
@@ -677,7 +669,6 @@
 /* FORNITURE END */
 
 
-
 /* PEOPLE START */
 .people__intro {
     margin-top: 130px;
@@ -774,7 +765,6 @@
     margin-bottom: -50px;
     margin-left: 16px;
 }
-
 /* PEOPLE END */
 
 /* QUESTIONS START */
@@ -846,13 +836,10 @@
     height: 51px;
     min-width: 200px;     
 }
-
-
 /* QUESTIONS END */
 
 
 /* MAP START */
-
 .map {
     margin-top: -205px;    
     height: 983.9px;
@@ -891,5 +878,4 @@
     display: flex;
     justify-content: center;
 }
-
 /* MAP END */
